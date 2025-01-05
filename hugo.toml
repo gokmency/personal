@@ -1,69 +1,7 @@
-baseURL = "http://localhost:1313/"
-languageCode = "en-us"
-title = "gokmen.eth"
-theme = "hugo-PaperMod"
+[build]
+  command = "hugo"
+  publish = "public"
 
-[params]
-  author = "Gokmen"
-  showReadingTime = true
-  showToc = true
-  showBreadCrumbs = true
-  defaultTheme = "auto"
-  disableThemeToggle = false
-
-  # Site açıklaması ve SEO için anahtar kelimeler
-  description = "Personal blog and portfolio of Gokmen."
-  keywords = ["Blog", "Portfolio", "Categories", "Archives"]
-
-  # Profil modu (etkinleştirildiğinde sosyal medya ikonları görünür)
-  [params.profileMode]
-    enabled = true
-    title = "Welcome to Gokmen.eth!"
-    subtitle = "Exploring technology and life."
-    imageUrl = "images/skyman.png"
-
-[[params.profileMode.buttons]]
-  name = "Archives"
-  url = "/archives/"
-
-[params.assets]
-  favicon = "icons/favicon.ico"
-  favicon16x16 = "icons/favicon-16x16.png"
-  favicon32x32 = "icons/favicon-32x32.png"
-  apple_touch_icon = "icons/apple-touch-icon.png"
-  theme_color = "#2e2e33"
-  msapplication_TileColor = "#2e2e33"
-
-# Sosyal medya bağlantıları
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/gokmency"
-
-[[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/gokmeneth"
-
-[[params.socialIcons]]
-  name = "linkedin"
-  url = "https://linkedin.com/in/gokmencelik"
-
-[[params.socialIcons]]
-  name = "email"
-  url = "mailto:gokmen@grainz.xyz"
-
-[[params.socialIcons]]
-  name = "Grainz"
-  url = "https://grainz.xyz" # OpenSea profil URL'nizi buraya ekleyin
-
-# Menü yapılandırması
-[[menu.main]]
-  identifier = "categories"
-  name = "Categories"
-  url = "/categories/"
-  weight = 10
-
-[[menu.main]]
-  identifier = "archives"
-  name = "Archives"
-  url = "/archives/"
-  weight = 20
+[context.production.environment]
+  HUGO_VERSION = "0.140.2"
+  HUGO_EXTENDED = "true"
