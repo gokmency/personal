@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web3 on gokmen.eth</title>
+    <link>http://localhost:1313/categories/web3/</link>
+    <description>Recent content in Web3 on gokmen.eth</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/web3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>deneme</title>
+      <link>http://localhost:1313/posts/ikincimakale/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ikincimakale/</guid>
+      <description>&lt;h2 id=&#34;deneme&#34;&gt;Deneme&lt;/h2&gt;
+&lt;p&gt;Burada bir web3 makalesi var. lütfen siteye gidiniz &lt;a href=&#34;https://grainz.xyz&#34;&gt;GRAINZ&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
